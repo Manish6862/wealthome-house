@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Morden Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header----------------------------- -->
+    <header id="main-header">
+      <img src="img/logo.png" alt="" />
+      <ul class="navlist">
+        <li><a href="#home" class="active" style="--i: 1">Home</a></li>
+        <li><a href="#rent" style="--i: 1">Rent</a></li>
+        <li><a href="#sell" style="--i: 1">Sell</a></li>
+        <li><a href="#buy" style="--i: 1">Buy</a></li>
+        <li><a href="#about" style="--i: 1">About</a></li>
+      </ul>
+      <div class="button">
+        <button>Login</button>
+        <button>Get Started</button>
+        <div id="menu-icon" class="fa-solid fa-bars"></div>
+      </div>
+    </header>
+
+    <!-- Hero Section----------------------- -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Find a place where you can be yourself.</h1>
+          <p>
+            If you're looking for a place where you can be yourself, don't give
+            up. Keep searching until you find a place that feels like home.
+          </p>
+        </div>
+
+        <form action="" class="search-box">
+          <label class="search-item">
+            <div class="labels">
+              <p class="class-medium">Want to</p>
+              <select name="want-to" class="want">
+                <option value="buy" selected>Buy</option>
+                <option value="sell" selected>Sell</option>
+                <option value="rent" selected>Rent</option>
+              </select>
+            </div>
+
+            <div class="blue-icon">
+              <i class="fa-solid fa-house"></i>
+            </div>
+          </label>
+          <hr />
+
+          <label class="search-item">
+            <div class="labels">
+              <p class="class-medium">Propety type</p>
+              <select name="want-to" class="want">
+                <option value="buy" selected>Any</option>
+                <option value="sell">Houses</option>
+                <option value="rent">Apatments</option>
+                <option value="rent">Villa</option>
+                <option value="rent">Townhome</option>
+                <option value="rent">Bunglow</option>
+                <option value="rent">Loft</option>
+              </select>
+            </div>
+            <div class="blue-icon">
+              <i class="fa-solid fa-building"></i>
+            </div>
+          </label>
+          <hr />
+
+          <label class="search-item">
+            <div class="labels">
+              <p class="class-medium">Location</p>
+              <input
+                type="text"
+                placeholder="Street, City, Pin NO"
+                name="city"
+              />
+            </div>
+            <div class="blue-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+          </label>
+          <hr />
+
+          <label class="search-item" id="search-bar">
+            <a href=""
+              ><button>
+                <i class="fa-solid fa-magnifying-glass"></i>Search
+              </button></a
+            >
+          </label>
+        </form>
+      </div>
+      <img src="img/hero.png" alt="House" class="hero-house" />
+    </section>
+
+    <!-- Rent Section----------------------- -->
+    <section class="main-rent" id="rent">
+      <div class="property-heading">
+        <div class="heading-content">
+          <h1>Best home in your city</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
+            inventore asperiores harum,
+          </p>
+        </div>
+        <a href="#" class="explore">
+          Explore More <i class="fa-solid fa-arrow-right rotate"></i>
+        </a>
+      </div>
+
+      <div class="rent-section">
+        <div class="rent">
+          <div class="rent1">
+            <img width="100%" src="img/property-1.jpg" alt="" />
+          </div>
+
+          <div class="property-content">
+            <h5>$775.68</h5>
+            <p>Cova Home Reality</p>
+            <p>1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+          </div>
+
+          <div class="qua">
+            <span><i class="fa-solid fa-bed"></i> 2 Bed</span>
+            <span><i class="fa-solid fa-bath"></i> 2 Bath</span>
+            <span><i class="fa-solid fa-newspaper"></i> 1430sqft</span>
+          </div>
+        </div>
+
+        <div class="rent">
+          <div class="rent1">
+            <img width="100%" src="img/property-2.jpg" alt="" />
+          </div>
+
+          <div class="property-content">
+            <h5>$775.68</h5>
+            <p>Cova Home Reality</p>
+            <p>1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+          </div>
+
+          <div class="qua">
+            <span><i class="fa-solid fa-bed"></i> 2 Bed</span>
+            <span><i class="fa-solid fa-bath"></i> 2 Bath</span>
+            <span><i class="fa-solid fa-newspaper"></i> 1430sqft</span>
+          </div>
+        </div>
+
+        <div class="rent">
+          <div class="rent1">
+            <img width="100%" src="img/property-3.jpg" alt="" />
+          </div>
+
+          <div class="property-content">
+            <h5>$775.68</h5>
+            <p>Cova Home Reality</p>
+            <p>1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+          </div>
+
+          <div class="qua">
+            <span><i class="fa-solid fa-bed"></i> 2 Bed</span>
+            <span><i class="fa-solid fa-bath"></i> 2 Bath</span>
+            <span><i class="fa-solid fa-newspaper"></i> 1430sqft</span>
+          </div>
+        </div>
+
+        <div class="rent">
+          <div class="rent1">
+            <img width="100%" src="img/property-4.jpg" alt="" />
+          </div>
+
+          <div class="property-content">
+            <h5>$775.68</h5>
+            <p>Cova Home Reality</p>
+            <p>1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+          </div>
+
+          <div class="qua">
+            <span><i class="fa-solid fa-bed"></i> 2 Bed</span>
+            <span><i class="fa-solid fa-bath"></i> 2 Bath</span>
+            <span><i class="fa-solid fa-newspaper"></i> 1430sqft</span>
+          </div>
+        </div>
+
+        <div class="rent">
+          <div class="rent1">
+            <img width="100%" src="img/property-5.jpg" alt="" />
+          </div>
+
+          <div class="property-content">
+            <h5>$775.68</h5>
+            <p>Cova Home Reality</p>
+            <p>1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+          </div>
+
+          <div class="qua">
+            <span><i class="fa-solid fa-bed"></i> 2 Bed</span>
+            <span><i class="fa-solid fa-bath"></i> 2 Bath</span>
+            <span><i class="fa-solid fa-newspaper"></i> 1430sqft</span>
+          </div>
+        </div>
+
+        <div class="rent">
+          <div class="rent1">
+            <img width="100%" src="img/property-6.jpg" alt="" />
+          </div>
+
+          <div class="property-content">
+            <h5>$775.68</h5>
+            <p>Cova Home Reality</p>
+            <p>1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+          </div>
+
+          <div class="qua">
+            <span><i class="fa-solid fa-bed"></i> 2 Bed</span>
+            <span><i class="fa-solid fa-bath"></i> 2 Bath</span>
+            <span><i class="fa-solid fa-newspaper"></i> 1430sqft</span>
+          </div>
+        </div>
+
+        <div class="rent">
+          <div class="rent1">
+            <img width="100%" src="img/property-7.jpg" alt="" />
+          </div>
+
+          <div class="property-content">
+            <h5>$775.68</h5>
+            <p>Cova Home Reality</p>
+            <p>1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+          </div>
+
+          <div class="qua">
+            <span><i class="fa-solid fa-bed"></i> 2 Bed</span>
+            <span><i class="fa-solid fa-bath"></i> 2 Bath</span>
+            <span><i class="fa-solid fa-newspaper"></i> 1430sqft</span>
+          </div>
+        </div>
+
+        <div class="rent">
+          <div class="rent1">
+            <img width="100%" src="img/property-8.jpg" alt="" />
+          </div>
+
+          <div class="property-content">
+            <h5>$775.68</h5>
+            <p>Cova Home Reality</p>
+            <p>1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+          </div>
+
+          <div class="qua">
+            <span><i class="fa-solid fa-bed"></i> 2 Bed</span>
+            <span><i class="fa-solid fa-bath"></i> 2 Bath</span>
+            <span><i class="fa-solid fa-newspaper"></i> 1430sqft</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- House Section--------------------- -->
+    <section id="sell">
+      <div class="house-section">
+        <div class="description">
+          <div class="des-left">
+            <h1>Hostels & Rentals for Every Lifestyle</h1>
+          </div>
+          <div class="des-right">
+            <a href="#"
+              ><i class="fa-solid fa-arrow-down-wide-short"></i> Sort by</a
+            >
+            <a href="#"><i class="fa-solid fa-sliders"></i> Filter</a>
+          </div>
+        </div>
+
+        <div class="house">
+          <!-- House-image-------- -->
+          <div class="house-image">
+            <img width="100%" src="img/feature-banner-1.jpg" alt="" />
+          </div>
+
+          <!-- House-content------ -->
+          <div class="house-content">
+            <div class="about-one">
+              <h1>We Specialize In Quality Home Renovations</h1>
+              <p>
+                Looking to renovate your home to reflect your style and
+                personality? Looking no further than our team of experts who
+                speacialize in quality home renovations to transform your space
+                into a dream home you'll love. Form design to execution.
+              </p>
+            </div>
+
+            <div class="about-two">
+              <span><i class="fa-solid fa-circle-check"></i> Smart Home</span>
+              <span
+                ><i class="fa-solid fa-circle-check"></i> Beautiful Sence
+                Around</span
+              >
+              <span
+                ><i class="fa-solid fa-circle-check"></i> Execptional
+                Lifestyle</span
+              >
+              <span
+                ><i class="fa-solid fa-circle-check"></i> Complete 24/7
+                Security</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="house" id="reverse">
+          <!-- House-content------ -->
+          <div class="house-content">
+            <div class="about-one">
+              <h1>We Are Experts In Historic Home Renovations</h1>
+              <p>
+                Looking to renovate your home to reflect your style and
+                personality? Looking no further than our team of experts who
+                speacialize in quality home renovations to transform your space
+                into a dream home you'll love. Form design to execution.
+              </p>
+            </div>
+
+            <div class="about-two">
+              <span><i class="fa-solid fa-circle-check"></i> Smart Home</span>
+              <span
+                ><i class="fa-solid fa-circle-check"></i> Beautiful Sence
+                Around</span
+              >
+              <span
+                ><i class="fa-solid fa-circle-check"></i> Execptional
+                Lifestyle</span
+              >
+              <span
+                ><i class="fa-solid fa-circle-check"></i> Complete 24/7
+                Security</span
+              >
+            </div>
+          </div>
+
+          <!-- House-image-------- -->
+          <div class="house-image">
+            <img width="100%" src="img/feature-banner-2.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="presentation-content">
+          <h1>Wealthhome Moments</h1>
+          <p>Crafted for Modern Living</p>
+        </div>
+
+        <div class="house-video">
+          <div class="video" id="video1">
+            <video src="img/housevideo1.mp4" autoplay loop muted></video>
+          </div>
+
+          <div class="video" id="video2">
+            <video src="img/housevideo2.mp4" autoplay loop muted></video>
+          </div>
+
+          <div class="video" id="video3">
+            <video src="img/housevideo3.mp4" autoplay loop muted></video>
+          </div>
+        </div>
+
+        <div class="aboutvideo">
+          <div class="aa about1">
+            <i class="fa-solid fa-circle-user"></i>
+            <h1>9,500+</h1>
+            <p>Happy Customers</p>
+          </div>
+          <div class="aa about2">
+            <i class="fa-solid fa-database"></i>
+            <h1>60+</h1>
+            <p>Years of Service</p>
+          </div>
+          <div class="aa about3">
+            <i class="fa-solid fa-users-rectangle"></i>
+            <h1>20,000+</h1>
+            <p>Visitors</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Review Section-------------------- -->
+    <section id="buy">
+      <div class="review">
+        <div class="review-heading">
+          <div class="review-heading-left">
+            <span>Our Coustomer</span>
+            <h1>We Help 1000+ Family Find Their True Home</h1>
+            <div class="people-dp">
+              <div class="people1 dp">
+                <img src="img/avatar-1.jpg" alt="" />
+              </div>
+              <div class="people2 dp">
+                <img src="img/avatar-2.jpg" alt="" />
+              </div>
+              <div class="people3 dp">
+                <img src="img/avatar-3.jpg" alt="" />
+              </div>
+              <div class="people4 dp">
+                <img src="img/avatar-4.jpg" alt="" />
+                <p>99+</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="people"></div>
+
+          <div class="review-heading-right">
+            <a href="#"
+              >View All Stories <i class="fa-solid fa-arrow-right rotate"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="user-review">
+          <div class="user1 user">
+            <img src="img/story-1.jpg" alt="" />
+            <div class="rate">
+              <div class="star">
+                <p>Liam Anderson</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>5.0</span>
+              </div>
+              <div class="story-img">
+                <img src="img/story-avatar-1.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="user2 user">
+            <img src="img/story-2.jpg" alt="" />
+            <div class="rate">
+              <div class="star">
+                <p>Noah Carter</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>5.0</span>
+              </div>
+              <div class="story-img">
+                <img src="img/story-avatar-2.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="user3 user">
+            <img src="img/story-3.jpg" alt="" />
+            <div class="rate">
+              <div class="star">
+                <p>James Walker</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>5.0</span>
+              </div>
+              <div class="story-img">
+                <img src="img/story-avatar-3.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="user4 user">
+            <img src="img/story-4.jpg" alt="" />
+            <div class="rate">
+              <div class="star">
+                <p>Olivia Bennett</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>5.0</span>
+              </div>
+              <div class="story-img">
+                <img src="img/story-avatar-4.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="user5 user">
+            <img src="img/story-5.jpg" alt="" />
+            <div class="rate">
+              <div class="star">
+                <p>Emma Thompson</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>5.0</span>
+              </div>
+              <div class="story-img">
+                <img src="img/story-avatar-5.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="user6 user">
+            <img src="img/story-6.jpg" alt="" />
+            <div class="rate">
+              <div class="star">
+                <p>Ava Morgan</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>5.0</span>
+              </div>
+              <div class="story-img">
+                <img src="img/story-avatar-6.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section-------------------- -->
+    <footer id="about">
+      <div class="footer">
+        <div class="footer-text">
+          <img src="img/logo.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit atque alias consequatur
+          </p>
+        </div>
+        <div class="footer-link">
+          <div class="quick-link">
+            <p>Quick Links</p>
+            <ul>
+              <a href="#"><li>Home</li></a>
+              <a href="#"><li>Buy</li></a>
+              <a href="#"><li>Sell</li></a>
+              <a href="#"><li>Rent</li></a>
+            </ul>
+          </div>
+
+          <div class="support">
+            <p>Support</p>
+            <ul>
+              <a href="#"> <li>About us</li></a>
+              <a href="#"> <li>Contact us</li></a>
+              <a href="#"> <li>Privacy Policy</li></a>
+              <a href="#"> <li>Terms & Conditions</li></a>
+            </ul>
+          </div>
+
+          <div class="touch">
+            <p>Get In Touch</p>
+            <ul>
+              <li>info@wealthhome.com</li>
+              <li>123 Real Estate Avenue, New York, NY 10001</li>
+              <li>+1 (123) 456-7890</li>
+              <li>Mon–Fri: 9am–6pm</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer2">
+      <div class="footer-mid-row2">
+
+        <div class="copyright">
+          <p>© 2016–2025 WealthHome Pvt. Ltd. | All rights reserved</p>
+        </div>
+
+        <div class="appicon">
+          <h5>Download App</h5>
+          <img width="100px" src="img/Apple store.webp" alt="" />
+          <img width="100px" src="img/Google play.webp" alt="" />
+        </div>
+
+        <div class="slinks">
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-square-threads"></i>
+        </div>
+
+      </div>
+
+      <div class="footer-mid-row3">
+        <p>
+          “WealthHome” is owned and managed by WealthHome Realty Private Limited and is in no way related, affiliated, or associated with “XYZREALTY.COM”, which is a separate real estate business operated by XYZ Realty Services Private Limited.
+        </p>
+      </div>
+      </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,407 @@
+@media (max-width: 1000px) {
+  
+  #main-header {
+  padding: 10px 5%;
+}
+  input:focus,
+  input:hover {
+    outline: none;
+    background-color: transparent;
+  }
+  .search-item:hover {
+    background-color: transparent;
+    border-radius: none;
+  }
+  .hero-house {
+    right: -10%;
+  }
+  .rent-section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .about-two {
+    grid-template-columns: 1fr;
+  }
+  .heading-content h1 {
+    margin-bottom: 3px;
+    font-size: 1.7rem;
+    font-weight: 650;
+  }
+  .aa {
+    width: 48%; /* First two items will go side by side */
+    height: 200px;
+  }
+  
+  .aa.about3 {
+    width: 100%; /* Last item full width */
+  }
+ 
+  
+  .house-content {
+    padding: 10px 2%;
+  }
+#reverse{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.about-one h1 {
+  line-height: 2.5rem;
+}
+
+.hero {
+  
+  padding: 100px 5%;
+}
+.footer{
+  flex-direction: column;
+}
+.footer-link{
+  margin: 30px 0pc 0px 0px;
+}
+}
+
+
+@media screen and (max-width: 780px) {
+  .hero-house {
+    display: none;
+  }
+  .house {
+    grid-template-columns: 1fr;
+  }
+  .about-two {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #menu-icon {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+  }
+  #menu-icon.fa-xmark {
+    transform: rotate(-180deg);
+  }
+  .navlist {
+    display: flex;
+    position: absolute;
+    top: -1000px;
+    right: 30px;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+    text-align: left;
+    padding: 1%;
+    transition: all 0.45s ease;
+    width: 40%;
+  }
+  .navlist li a {
+    display: block;
+    font-size: 0.9rem;
+    color: black;
+  }
+  .navlist li a:hover {
+    color: #2179ff;
+  }
+  .navlist.open {
+    top: 100%;
+  }
+  .hero-content h1 {
+    font-size: 2.8rem;
+    line-height: 4rem;
+  }
+  .hero {
+    padding: 150px 5% 90px 5%;
+  }
+  .container {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .button :nth-child(1) {
+    margin-right: 10px;
+  }
+  .description{
+ flex-direction: column;
+ align-items: flex-end;
+}
+.description .des-right {
+  width: 100%;
+}
+.des-right a{
+  margin-top:  5px;
+  width: 100%;
+}
+.rent-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+ 
+  .footer-mid-row2{
+    flex-direction: column;
+   
+    gap: 20px;
+  }
+  .footer-mid-row3 p{
+    text-align: justify;
+  }
+  .slinks{
+  margin-left: 0px;
+}
+  .slinks i{
+  margin-right: 30px;
+}
+}
+@media screen and (max-width: 722px) {
+  #main-header {
+    width: 100%;
+    padding: 10px 5%;
+  }
+  .search-box {
+    width: 100%;
+    flex-direction: column;
+    padding: 10px 10px;
+  }
+  .hero-content h1 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  .search-item a {
+    height: 45px;
+  }
+  hr {
+    opacity: 0.1;
+  }
+}
+@media (max-width: 880px) {
+  .user {
+    flex: 0 0 calc(50% - 10px); /* 2 per row with gap */
+    height: auto;
+    aspect-ratio: 3 / 2.5 ;        /* height = width */
+  }
+}
+
+
+
+
+@media screen and (max-width: 630px) {
+  
+  #main-header {
+  padding: 10px 3%;
+}
+  header img {
+    width: 120px;
+  }
+
+  .button :nth-child(1) {
+    font-size: 0.7rem;
+    margin-right: 10px;
+  }
+  .button :nth-child(2) {
+    width: 85px;
+    height: 30px;
+    font-size: 0.7rem;
+  }
+  .heading-content h1 {
+    font-size: 1.5rem;
+  }
+  .hero {
+    height: 70vh;
+    padding: 300px 3%;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .hero-content h1 {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+  .hero-content p {
+    font-size: 0.8rem;
+  }
+
+  .search-item:hover {
+    border-radius: 0px;
+  }
+
+  .blue-icon i {
+    color: #2179ff;
+    font-size: 1.2rem;
+  }
+  .search-box .search-item i {
+    border: none;
+  }
+
+  .search-item p {
+    font-size: 1rem;
+  }
+  #search-bar a i {
+    font-size: 1.2rem;
+  }
+  .search-item {
+    padding: 12px 10px;
+  }
+
+  ::placeholder {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  select.want {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+
+  .qua {
+    margin: 4px 17px;
+  }
+  .property-content {
+    margin: 10px 17px;
+  }
+  .property-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 15px;
+  }
+  .heading-content {
+    width: 100%;
+  }
+
+  .presentation-content h1 {
+    font-size: 1.5rem;
+    font-weight: 650;
+    text-align: start;
+  }
+  .presentation-content p {
+    text-align: start;
+  }
+  .heading-content p {
+    text-align: justify;
+  }
+  
+  .main-rent {
+    padding: 70px 3% 0px 3%;
+  }
+  .rent-section {
+    grid-template-columns: 1fr;
+  }
+.house-section{
+  padding: 70px 3% 0px 3%;
+}
+  
+
+  .house-video {
+    flex-direction: column;
+    position: relative;
+  }
+  #video2{
+    box-shadow: none;
+  }
+  .house{
+    gap: 0px;
+  }
+   .about-two {
+    grid-template-columns: 1fr;
+  }
+
+  #video1 {
+    width: 100%;
+    height: 200px;
+  }
+
+  #video2,
+  #video3 {
+    width: 53%;
+    height: 150px;
+  }
+
+  .video {
+    display: inline-block;
+  }
+
+  /* Wrap #video2 and #video3 in a row */
+  #video2,
+  #video3 {
+    display: inline-block;
+    vertical-align: top;
+  }
+  #video3 {
+    display: flex;
+    flex-direction: row;
+    align-self: end;
+  }
+
+  .aboutvideo {
+    flex-direction: column;
+
+    margin-top: -370px;
+    left: 0;
+    gap: 20px;
+    position: relative;
+    z-index: 1;
+    
+  }
+  .about3 {
+    width: 100%;
+    height: 200px;
+  }
+  .about2,
+  .about1 {
+    width: 45%;
+    height: 150px;
+  }
+  .about1 {
+    display: flex;
+    align-self: end;
+  }
+
+
+  /* Review Sectin---- */
+  .review{
+  padding: 70px 3% 0px 3%;
+  }
+  .review-heading{
+  flex-direction: column;
+  align-items: start;
+}
+.review-heading-left{
+ width: 100%;
+}
+
+
+.review-heading-left h1{
+  
+  line-height: 2.2rem;
+}
+.rate{
+  padding: 0px 5px;
+  bottom: 6px;
+}
+  .rate .story-img{
+  width:  30px;
+  height: 30px;
+}
+.people-dp{
+  margin: 5px 0px 10px 0px;
+  
+}
+.people-dp .dp{
+  height: 40px;
+  width: 55px;
+}
+.people4 p{
+  bottom: 5px;
+  left: 13px;
+  font-size: 14px;
+  
+}
+.review-heading-right a{
+  margin-bottom: 15px;
+}
+.footer-text{
+  width: 100%;
+}
+
+
+}
